@@ -1,0 +1,11 @@
+model:
+  num_class: 10
+  num_feature: 28
+  num_train: 60000
+  num_test: 10000
+  num_machines: 20
+  batch_size: 32
+  num_iter: 5000
+  exit_byzantine: True
+  num_byz: 8
+  data_path: './data/'
